@@ -1,52 +1,79 @@
 ![alt text](/img/spurtcommerce-logo.png "spurtcommerce Logo")
 
-# Ecommerce / Nodejs + Angular 4 + Mysql + loopback Framework
+# Ecommerce / Nodejs + Angular 7 + Mysql 
+
+#  Spurtcommerce Community Edition
+
+Spurtcommerce, an Open Source NodeJS and Angular eCommerce comes with full Source Code. The Community Edition comes with the basic and necessary features of a standard eCommerce platform. We welcome contributors to the Community and Developers to join us in constantly improving the solution and bringing new upgrades. Spurtcommerce comes with complete online documentation.
+
+*	Spurtcommerce Admin Control Panel 
+*	Spurtcommerce Store Front
+*	Spurtcommerce API 
+
+Spurtcommerce Community Edition is publicly available on GitHub and free to download and use. 
+
+| Reference | URL |
+| ------ | ------ |
+| Documentation | http://www.spurtcommerce.com/nodejs-shoppingcart-ecommerce-community |
+| Community | http://www.community.spurtcommerce.com|
+| Blog | http://www.blog.spurtcommerce.com |
+| API | http://api.spurtcommerce.com |
+| Guide | http://docs.spurtcommerce.com |
+
+## Why did we buid Spurtcommerce? 
+
+Spurtcommerce has been developed using the highest coding standards in the industry. Spurtcommerce is not a framework and it comes with complete Source Code that can be tweaked, forked and modified for any requirement. 
+
+Having inspired by the smartness of NodeJS and Angular, in creating high performing and highly scalable applications, and also being the biggest fanatics of Open Source technologies, the team behind the innovation of Spurtcommerce got encouraged to develop this solution, to offer a smart eCommerce solution to the Developers' Community.
+
+#Spurtcommerce 'Pro' Edition 
+Looking out to develop a high performing and highly scalable full-fledged eCommerce platform that matches with the recent eCommerce trend? Spurtcommerce 'Pro' Edition comes with all the advanced features of a full-fledged eCommerce platform. The features have been thoughtfully introduced, keeping the current and the upcoming eCommerce trend in mind. 
+
+To buy Spurtcommerce 'Pro' Edition, visit https://spurtcommerce.com/nodejs-shoppingcart-ecommerce-download
 
 
-## What is SpurtCommerce?
+#Spurtcommerce Developers' Lite Edition
+Aiming at developing a high speed and high performing eCommerce platform for your Clients? Purchase Spurtcommerce Developers' Lite Edition that comes with the features of a standard eCommerce platform. Get access to full Source Code with freedom to customize. 
 
-We have developed an opensource ecommerce solution using Angular 4 and NodeJS along with MySQL database. We have built this solution using Loopback framework as the base. The solution is called 'SpurtCommerce'.
-
-
-We are releasing the version 1.0, which is only the beginning. We will be constantly working on adding more features and we will keep updating you on that. 
+Also, save time and cost on development. To buy Spurtcommerce Developers' Lite Edition, visit https://spurtcommerce.com/nodejs-shoppingcart-ecommerce-download
 
 
-## Why did we build it?
 
-You might be either looking for a Node JS based eCommerce website  for your own business. Or you may be at the verge of developing an Node JS based eCommerce website for your Client. 
+#TechStack
+Spurtcommerce has been developed using the open source and futuristic technologies. Spurtcommerce is built using the open source frameworks of NodeJS and Angular, which are the niche and futuristic technologies. Spurtcommerce is an open source eCommerce solution, built for a cause of bringing an advancement in the field of eCommerce development, that will result in a high speed and good performing eCommerce application.
 
-Whatever your need be, you may easily use the SpurtCommerce, the one stop Node JS solution for developing a powerful eCommerce website that will work at a lightening fast speed. 
+The Express JS, NodeJS and other libraries used in Spurtcommerce have been thoughtfully chosen  based on their technical supremacy, security and stability. These libraries allows you to adapt and customize code to your specific requirements, giving you complete flexibility and freedom, with the code not having connected to any particular Developer or specific somebody.
+For more details, refer https://spurtcommerce.com/nodejs-shoppingcart-ecommerce-technology
+Installation
 
-## What are the Features Includes?
+We want you to have a smooth sailing Spurtcommerce installation. The following video links will give you a step-by-step guidance on installing Spurtcommerce in, 
+Linux - https://youtu.be/DIcDvKz4UmM
+Windows - https://www.youtube.com/watch?v=H6fM0WfBUs8
 
-* Intuitive admin dashboard
-* Login, Register and Forgot Password
-* Product Catalogue
-* Product Category
-* Product display
-* Search and Filters options for product search
-* Similar products and related products 
-* Wish list 
-* Shopping Cart and Checkout Methods 
-* Orders and Payment 
-* Multi-language 
-* Multi-currency
-* Checkbox/ radio/ dropdown- product option support 
-* Product reviews and ratings 
-* Purchase invoices 
+#Demo
+The features in Spurtcommerce is the result of a thought process, keeping in mind the interest of eCommerce End-Users, eCommerce Business Owners as well as the Developers. The features within the solution have been developed with a motive to offer a seamless experience to our valuable Users of Spurtcommerce. 
 
+We have a detailed demo, separately for:
+•	Admin
+•	Store Front
+•	Mobile App
+•	Add-on Manager 
 
-##  Who We Are?
+To run a Spurt Demo, visit https://spurtcommerce.com/nodejs-shoppingcart-ecommerce-demo
 
-We are a team of 5 supermen, experienced at the architectural level. We have been constantly researching and studying Open source technologies like NodeJS and AngularJS. We have also analyzed the eCommerce industry throughout our career. 
+#Extensions
+Some of the additional features that are not available in the original solution, however you may choose to have. 
 
-Today, keeping our knowledge and experience as a base, we came up with an idea of how Node can serve eCommerce Development in a better manner. We then developed a super solution for eCommerc businesses using NodeJS. 
+#License
 
-We are all experienced NodeJS developers, who are the core part of the workforce at Piccosoft Software Labs India (P) Limited.
+Spurtcommerce is released under the BSD-3-Clause License.
 
-## We are avialible for hire
+#Support
 
-Alternatively, if you are looking for the development of a Node JS eCommerce website and Mobile apps then do get in touch with m at developer.suresh@gmail.com
+Should you require any support in installation, setup and on how to effectively use Spurtcommerce for your eCommerce, you may seek help from the Spurt Community at community.spurtcommerce.com, or should you require any further support, you may write to support@spurtcommerce.com
 
+#About Piccosoft 
+Spurtcommerce is developed by Piccosoft Software Labs India (P) Limited, which is primarily a Web and Mobile App Service Provider, and who have adopted the latest and niche technologies for their Development services. The team comprises of experienced Developers, who are technology enthusiasts and passionate about innovations.
 
+Having inspired by the smartness of NodeJS and Angular, in creating high performing and highly scalable applications, and also being the biggest fanatics of Open Source technologies, the team at Piccosoft got encouraged to develop Spurtcommerce, to offer a smart eCommerce solution to the Developers' Community.
 
