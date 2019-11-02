@@ -26,20 +26,20 @@ Spurtcommerce has been developed using the highest coding standards in the indus
 
 Having inspired by the smartness of NodeJS and Angular, in creating high performing and highly scalable applications, and also being the biggest fanatics of Open Source technologies, the team behind the innovation of Spurtcommerce got encouraged to develop this solution, to offer a smart eCommerce solution to the Developers' Community.
 
-#Spurtcommerce 'Pro' Edition 
+## Spurtcommerce 'Pro' Edition 
 Looking out to develop a high performing and highly scalable full-fledged eCommerce platform that matches with the recent eCommerce trend? Spurtcommerce 'Pro' Edition comes with all the advanced features of a full-fledged eCommerce platform. The features have been thoughtfully introduced, keeping the current and the upcoming eCommerce trend in mind. 
 
 To buy Spurtcommerce 'Pro' Edition, visit https://spurtcommerce.com/nodejs-shoppingcart-ecommerce-download
 
 
-#Spurtcommerce Developers' Lite Edition
+# Spurtcommerce Developers' Lite Edition
 Aiming at developing a high speed and high performing eCommerce platform for your Clients? Purchase Spurtcommerce Developers' Lite Edition that comes with the features of a standard eCommerce platform. Get access to full Source Code with freedom to customize. 
 
 Also, save time and cost on development. To buy Spurtcommerce Developers' Lite Edition, visit https://spurtcommerce.com/nodejs-shoppingcart-ecommerce-download
 
 
 
-#TechStack
+# TechStack
 Spurtcommerce has been developed using the open source and futuristic technologies. Spurtcommerce is built using the open source frameworks of NodeJS and Angular, which are the niche and futuristic technologies. Spurtcommerce is an open source eCommerce solution, built for a cause of bringing an advancement in the field of eCommerce development, that will result in a high speed and good performing eCommerce application.
 
 The Express JS, NodeJS and other libraries used in Spurtcommerce have been thoughtfully chosen  based on their technical supremacy, security and stability. These libraries allows you to adapt and customize code to your specific requirements, giving you complete flexibility and freedom, with the code not having connected to any particular Developer or specific somebody.
@@ -50,7 +50,7 @@ We want you to have a smooth sailing Spurtcommerce installation. The following v
 Linux - https://youtu.be/DIcDvKz4UmM
 Windows - https://www.youtube.com/watch?v=H6fM0WfBUs8
 
-#Demo
+# Demo
 The features in Spurtcommerce is the result of a thought process, keeping in mind the interest of eCommerce End-Users, eCommerce Business Owners as well as the Developers. The features within the solution have been developed with a motive to offer a seamless experience to our valuable Users of Spurtcommerce. 
 
 We have a detailed demo, separately for:
@@ -61,18 +61,18 @@ We have a detailed demo, separately for:
 
 To run a Spurt Demo, visit https://spurtcommerce.com/nodejs-shoppingcart-ecommerce-demo
 
-#Extensions
+# Extensions
 Some of the additional features that are not available in the original solution, however you may choose to have. 
 
-#License
+# License
 
 Spurtcommerce is released under the BSD-3-Clause License.
 
-#Support
+# Support
 
 Should you require any support in installation, setup and on how to effectively use Spurtcommerce for your eCommerce, you may seek help from the Spurt Community at community.spurtcommerce.com, or should you require any further support, you may write to support@spurtcommerce.com
 
-#About Piccosoft 
+# About Piccosoft 
 Spurtcommerce is developed by Piccosoft Software Labs India (P) Limited, which is primarily a Web and Mobile App Service Provider, and who have adopted the latest and niche technologies for their Development services. The team comprises of experienced Developers, who are technology enthusiasts and passionate about innovations.
 
 Having inspired by the smartness of NodeJS and Angular, in creating high performing and highly scalable applications, and also being the biggest fanatics of Open Source technologies, the team at Piccosoft got encouraged to develop Spurtcommerce, to offer a smart eCommerce solution to the Developers' Community.
