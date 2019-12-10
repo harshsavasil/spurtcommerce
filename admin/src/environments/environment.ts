@@ -4,9 +4,10 @@
 
 export const environment = {
   production: false,
-  baseUrl: '', // <Your API base url>
-  imageUrl: '', // <Your API url for image resize>
-  productUrl: '' // <Your store base url>
+  baseUrl: 'http://localhost:9000/api', // <Your API base url>
+  imageUrl: 'http://localhost:9000/api/media/image-resize', // <Your API url for image resize>
+  productUrl: 'http://localhost:4205/#/',
+  pluginUrl: 'http://localhost:9000'
 };
 
 /*

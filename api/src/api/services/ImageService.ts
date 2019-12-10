@@ -54,19 +54,19 @@ export class ImageService {
         const directoryPath = path.join(process.cwd(), 'uploads' + '/' + folderName);
         return new Promise((resolve, reject) => {
             if (fs.existsSync(directoryPath)) {
-                resolve({ETAG: new Date()});
+                resolve({ ETAG: new Date() });
             }
             fs.mkdir(directoryPath, { recursive: true }, (err) => {
                 if (err) {
                     reject(err);
                 }
-                resolve({ETAG: new Date()});
+                resolve({ ETAG: new Date() });
             });
         });
     }
 
     // upload image
-    public imageUpload(folderName: string = '' , base64Image: any): Promise<any> {
+    public imageUpload(folderName: string = '', base64Image: any): Promise<any> {
         // Create the parameters for calling createBucket
         const directoryPath = path.join(process.cwd(), 'uploads' + '/' + folderName);
         return new Promise((resolve, reject) => {
@@ -77,7 +77,7 @@ export class ImageService {
                 const locationArray = directoryPath.split('/');
                 locationArray.pop();
                 const locationPath = locationArray.join('/');
-                resolve({success: true, path: locationPath});
+                resolve({ success: true, path: locationPath });
             });
         });
     }
@@ -86,18 +86,18 @@ export class ImageService {
     public async resizeImage(imgName: string = '', imgPath: string = '', widthString: string = '', heightString: string = ''): Promise<any> {
         const directoryPath = path.join(process.cwd(), 'uploads' + '/' + imgPath + imgName);
         console.log(directoryPath);
-      return new  Promise((resolve, reject) => {
+        return new Promise((resolve, reject) => {
             const gm = require('gm').subClass({ imageMagick: true });
-            return  gm(directoryPath)
-            .resize(widthString, heightString)
+            return gm(directoryPath)
+                .resize(widthString, heightString)
                 .toBuffer((error: any, buffer: any) => {
-                if (error) {
-                    reject(error);
-                } else {
-                    console.log('Buffer' + Buffer.isBuffer(buffer));
-                    resolve(buffer);
-                }
-            });
+                    if (error) {
+                        reject(error);
+                    } else {
+                        console.log('Buffer' + Buffer.isBuffer(buffer));
+                        resolve(buffer);
+                    }
+                });
         });
     }
 
@@ -135,13 +135,13 @@ export class ImageService {
                 if (err) {
                     reject(err);
                 }
-                resolve({success: true, message : 'successfully deleted file'});
+                resolve({ success: true, message: 'successfully deleted file' });
             });
         });
     }
 
     // search folders
-    public async getFolder( folderName: string = ''): Promise<any> {
+    public async getFolder(folderName: string = ''): Promise<any> {
 
         return new Promise(async (resolve, reject) => {
             const pathName = path.join(process.cwd(), 'uploads');
@@ -150,18 +150,18 @@ export class ImageService {
             const commonPrefix = [];
             if (folderName !== '') {
                 files.forEach(async file => {
-                    if (file.includes(folderName) === true ) {
-                        commonPrefix.push({Prefix: file + '/'} );
+                    if (file.includes(folderName) === true) {
+                        commonPrefix.push({ Prefix: file + '/' });
                     }
                 });
             } else {
                 console.log(files);
                 for (const file of files) {
-                    const pathfile = path.resolve( path.join(process.cwd(), 'uploads' + '/' + file));
+                    const pathfile = path.resolve(path.join(process.cwd(), 'uploads' + '/' + file));
                     const isDir = await this.isDirCheck(pathfile);
                     if (isDir) {
                         commonPrefix.push({
-                            Prefix:  file + '/',
+                            Prefix: file + '/',
                         });
                     } else {
                         contents.push({
